@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Post sth 🤔 ?
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+    <ion-label>I'm thinking...</ion-label>
+    <ion-select [(ngModel)]="categories">
+      <ion-option value="lunch">🍴 lunch</ion-option>
+      <ion-option value="beer">🍻 happy hour</ion-option>
+      <ion-option value="coffeeandtea">🍵 tea? ☕ coffee? </ion-option>
+    </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>around ..ish</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>at this awesome new called</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>just because</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+
+
+    <button class="submit-btn" ion-button block icon-only clear>please push live</button>
+
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,8 @@
+.tabs-ios[tabsLayout=icon-hide] .tab-button, .tabs-ios .tab-button.has-title-only {
+  min-height: none !important;
+}
+
+.tabs-ios[tabsLayout=icon-hide] .tab-button .tab-button-text, .tabs-ios .tab-button.has-title-only .tab-button-text {
+  font-size: 3vh !important;
+  line-height: 5vh !important;
+}
